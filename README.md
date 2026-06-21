@@ -1,17 +1,34 @@
-# Oriz Rank — SEO Tools
+# Oriz Rank — SEO tools
 
-Product brand: **Rank** (SEO ranking).
+> SEO ranking and analysis tools under the **Rank** product brand of the Oriz family.
 
-## Stack
+**Live at**: <https://seo.oriz.in> · **Status**: scaffold
 
-- Astro 6
-- React 19
-- Tailwind v4
+## What this is
 
-## Live
+Browser-based SEO tools — keyword research helpers, SERP previewers, meta-tag generators, and ranking utilities. All processing runs client-side; nothing about your sites or queries leaves your browser.
 
-https://seo.oriz.in
+## Per-feature inventory
+
+| Feature                     | Status     |
+| --------------------------- | ---------- |
+| (tools not yet implemented) | 📜 planned |
+
+## App-specific env vars
+
+None beyond the family-wide set at `templates/.env.example`.
+
+## Local dev
+
+```bash
+# from the workspace root (c:/D/oriz)
+pnpm -F oriz-rank-seo-tools-app dev
+```
+
+## Knowledge
+
+See [`./knowledge/`](./knowledge/) for app-specific decisions, runbooks, and services. Family rules / decisions / architecture live at the master repo's [`knowledge/`](../../../../knowledge/).
 
 ## License
 
-Source-available. See [LICENSE](./LICENSE).
+Source-available, all rights reserved. See master [`LICENSE`](../../../../LICENSE) — same terms across the family.
